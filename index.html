@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Odin Rock Paper Scissors</title>
 </head>
+
 <body>
     <h1>Rock, Paper, Scissors</h1>
-    <p>This game was made to play only through the console.</p>
-    <p>To access, use ctrl + shift + J to access the console and enter playGame() to start.</p>
+    <p>Press any button below to begin playing!</p>
+    <p>A single game is 5 rounds.</p>
+    <h2>Round: <span class="round">1</span></h2>
+    <div class="btns">
+        <button class="Rock">Rock</button>
+        <button class="Paper">Paper</button>
+        <button class="Scissors">Scissors</button>
+    </div>
+    <p>Round Winner: <span class="winner-round"></span></p>
+    <div class="choices">
+        <p>Choices:</p>
+        <p>You: <span class="human"></span></p>
+        <p>Computer: <span class="computer"></span></p>
+    </div>
+    <div class="scores">
+        <p>Scores:</p>
+        <p>You: <span class="human">0</span></p>
+        <p>Computer: <span class="computer">0</span></p>
+    </div>
+    <button class="restart">Restart</button>
 </body>
+
 </html>
